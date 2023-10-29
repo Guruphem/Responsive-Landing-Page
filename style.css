@@ -206,6 +206,7 @@ main {
     }
     .preface h2 {
         margin-block-end: 1.5rem;
+        font-size: 2rem;
     }
     .preface p {
         width: 100%;
