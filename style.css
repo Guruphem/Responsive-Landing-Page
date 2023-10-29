@@ -20,6 +20,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
+    z-index: 100;
 }
 
 h1 {
@@ -161,15 +162,15 @@ main {
         top: 55px;
         width: 70%;
         height: 100vh;
+        gap: 4rem;
         padding-block-start: 2rem;
         transform: translateX(100%);
         transition: all .3s ease-in-out;
     }
     .navlinks li {
-        padding: 0 0 4rem 0;
+        padding-inline-start: 0;
     }
     .navlinks li a:not(.active) {
-        background-color: rgb(6, 196, 6);
         font-size: 1.2rem;
         color: white;
         text-transform: uppercase;
