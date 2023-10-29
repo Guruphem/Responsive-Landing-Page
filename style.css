@@ -149,6 +149,9 @@ main {
     header {
         padding-inline: 1.2rem;
     }
+    h1 {
+        font-size: 1.2rem;
+    }
     .navlinks {
         flex-direction: column;
         align-items: center;
